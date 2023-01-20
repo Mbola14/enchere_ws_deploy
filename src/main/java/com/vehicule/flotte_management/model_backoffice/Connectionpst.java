@@ -14,9 +14,9 @@ import java.sql.DriverManager;
  */
 public class Connectionpst {
     public Connection connecterPostgres()  {
-        String url = "jdbc:postgresql://surus.db.elephantsql.com:5432/ppfymlkm";
-        String username = "ppfymlkm";
-        String password = "k1oexEH6sCabH6ptIGwwlePcoW7fY8Z1";
+        String url = "jdbc:postgresql://containers-us-west-194.railway.app:8057/railway";
+        String username = "postgres";
+        String password = "C4sXBmKyMzFdE6NoB56p";
         Connection conn = null;
         try {
             Class.forName("org.postgresql.Driver");

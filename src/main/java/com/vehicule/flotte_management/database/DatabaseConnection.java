@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     private static final String driver = "org.postgresql.Driver"; 
-    private static final String url = "jdbc:postgresql://surus.db.elephantsql.com:5432/ppfymlkm"; 
-    private static final String username = "ppfymlkm"; 
-    private static final String pwd = "k1oexEH6sCabH6ptIGwwlePcoW7fY8Z1";
+    private static final String url = "jdbc:postgresql://containers-us-west-194.railway.app:8057/railway"; 
+    private static final String username = "postgres";
+    private static final String pwd = "C4sXBmKyMzFdE6NoB56p";
 
     public Connection connect() throws ClassNotFoundException, SQLException {
         Class.forName(driver);
